@@ -1,0 +1,129 @@
+html {
+    font-family: 'museo-sans', sans-serif;
+}
+
+/** Layout Elements **/
+.hero {
+    background: url('/img/hero.jpg');
+    background-size: cover;
+}
+
+/** Colors **/
+.k-orange {
+    color: #FF9100;
+}
+.k-orange-bg {
+    background-color: #FF9100;
+}
+.k-blue {
+    color: #00A8A8;
+}
+.k-green {
+    color: #8AC91E;
+}
+.k-green-bg {
+    background-color: #8AC91E;
+}
+.k-dark-green {
+    color: #005757;
+}
+.k-dark-green-bg {
+    background-color: #005757;
+}
+.k-gray {
+    color: #231F20;
+}
+.k-gray-bg {
+    background-color: #231F20;
+}
+.k-dark-gray {
+    color: #656363;
+}
+.k-light-gray {
+    color: #8C9C9C;
+}
+.k-light-gray-bg {
+    background-color: #8C9C9C;
+}
+.k-light {
+    color: #CCDDDD;
+}
+.k-xlight {
+    color: #F0F5F5
+}
+.k-xlight-bg {
+    background-color: #F0F5F5
+}
+.k-medium {
+    color: #5C7373;
+}
+.k-dark {
+    color: #005757;
+}
+.k-xdark {
+    color: #1E5757;
+}
+.k-footer-bg {
+    background-color: #334040;
+}
+
+/** Buttons **/
+.k-button {
+    border: none;
+    border-radius: 100px;
+    padding: 15px 30px;
+    line-height: 1.4em;
+    cursor: pointer;
+}
+.k-button--center {
+    margin: 0 auto;
+}
+.k-button--submit {
+    padding: 10px 20px;
+}
+@media screen and (min-width: 48em) {
+    .k-button .fa {
+        display: block;
+        opacity: 0.5;
+        font-size: 1.4rem;
+        float: left;
+    }
+}
+@media screen and (max-width: 48em) {
+    .k-button .fa {
+        display: none;
+    }
+}
+
+/** Icons **/
+.icon-breakpoint--learn {
+    background: url('/img/easy_to_learn.svg') center center no-repeat;
+    height: 200px;
+    margin-top: -100px;
+}
+.icon-breakpoint--use {
+    background: url('/img/easy_to_use.svg') center center no-repeat;
+    height: 200px;
+    margin-top: -100px;
+}
+.icon-breakpoint--integrate {
+    background: url('/img/easy_to_integrate.svg') center center no-repeat;
+    height: 200px;
+    margin-top: -100px;
+}
+
+/** Mailchimp Form **/
+input.email {
+    width: 250px;
+    font-size: 10pt;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D2E5E5;
+    padding: 10px;
+}
+
+/** Tachyon Overrides **/
+.link:hover {
+    color: #FF9100;
+}

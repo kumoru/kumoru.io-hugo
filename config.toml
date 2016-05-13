@@ -1,0 +1,5 @@
+baseurl = "http://kumoru.io"
+languageCode = "en-us"
+title = "Kumoru"
+canonifyurls = true
+googleAnalytics = "UA-64260060-1"
