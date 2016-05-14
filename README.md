@@ -11,4 +11,4 @@ Develop locally by running: `hugo server`
 Currently [kumoru.io](http://kumoru.io) is being hosted on Github Pages. The [Kumoru org repo](https://github.com/kumoru/kumoru.github.io) is included as a submodule, and it is where Hugo-generated files
 are pushed.
 
-To deploy the latest changes, run the included script: `./deploy.sh`
+To deploy the latest changes, run the included script: `./deploy.sh`. The first argument to the script is an optional commit message.
