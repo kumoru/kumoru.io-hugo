@@ -3,9 +3,23 @@ html {
 }
 
 /** Layout Elements **/
+section.section {
+    padding: 70px 0;
+}
 .hero {
+    padding: 140px 0;
     background: url('/img/hero.jpg');
     background-size: cover;
+}
+@media screen and (min-width: 48em) {
+    .hero {
+        margin-top: 68px;
+    }
+}
+@media screen and (max-width: 48em) {
+    .hero {
+        margin-top: 122px;
+    }
 }
 
 /** Colors **/
@@ -152,4 +166,10 @@ input.email {
 /** Tachyon Overrides **/
 .link:hover {
     color: #FF9100;
+}
+@media screen and (min-width: 48em) {
+    .f1-ns {
+        font-size: 3.8rem;
+        letter-spacing: -3px;
+    }
 }
