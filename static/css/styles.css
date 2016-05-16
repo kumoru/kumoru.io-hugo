@@ -167,6 +167,17 @@ input.email {
 .link:hover {
     color: #FF9100;
 }
+.link, .link:active, .link:focus, .link:hover, .link:link, .link:visited {
+    transition: color .15s ease-in;
+    text-decoration: underline;
+}
+.nav-link:hover {
+    color: #FF9100;
+}
+.nav-link, .nav-link:active, .nav-link:focus, .nav-link:hover, .nav-link:link, .nav-link:visited {
+    transition: color .15s ease-in;
+    text-decoration: none;
+}
 @media screen and (min-width: 48em) {
     .f1-ns {
         font-size: 3.8rem;
