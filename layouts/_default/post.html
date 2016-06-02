@@ -1,0 +1,34 @@
+<article class="pb5">
+    <header class="tc mb5">
+        <h2 class="fw1 lh-title mb0-ns f-headline-ns f1">{{ .Title }}</h2>
+        <h3 class="fw5 lh-title mt0 f4 tracked ttu k-light-gray">{{ .Description }}</h3>
+    </header>
+
+    <section class="md pb5">
+        <div class="lh-copy f4-ns f5 fw3">
+            {{ .Content }}
+        </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <section class="k-gray tc">
+            <section class="fl-ns ttu tracked">
+                {{ if isset .Params "author" }}
+                    <p>{{ index .Params "author" }}</p>
+                {{ else if isset .Site.Params "author" }}
+                    <p>{{ index .Site.Params "author" }}</p>
+                {{ end }}
+            </section>
+            <p class="ttu f5 fr-ns tracked"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+        </section>
+
+        {{ with .Params.tags }}
+            <span class="f-post-tags"><i class="fa fa-tag"></i>
+                {{ delimit  . ", " }}
+            </span>
+        {{ end }}
+        {{ partial "disqus.html" . }}
+    </footer>
+</article>

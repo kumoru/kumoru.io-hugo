@@ -1,0 +1,9 @@
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+
+<section class="site-container center w-75 pt4 pb6-ns pb5">
+    {{ .Render "post" }}
+</section>
+
+{{ partial "footer.html" . }}
+

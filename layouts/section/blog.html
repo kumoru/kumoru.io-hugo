@@ -1,0 +1,13 @@
+<title>Kumoru - Blog</title>
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+
+<section class="site-container center w-75 pv4 tc">
+  {{ range .Paginator.Pages }}
+    {{ .Render "li" }}
+  {{ end }}
+  {{ partial "pagination.html" . }}
+</section>
+
+{{ partial "footer.html" . }}
+

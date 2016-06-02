@@ -1,5 +1,65 @@
 html {
     font-family: 'museo-sans', sans-serif;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.site-container {
+    margin-bottom: 49px;
+}
+
+@media screen and (min-width: 48em) {
+    .site-container {
+        margin-top: 68px;
+    }
+}
+@media screen and (max-width: 48em) {
+    .site-container {
+        margin-top: 122px;
+    }
+}
+
+/** Blog **/
+.post-li {
+    margin: 20px 0px;
+    border: 2px solid #eee;
+    transition: box-shadow 0.3s ease;
+}
+.post-li:hover {
+    box-shadow: 0px 0px 5px #CCDDDD;
+    transition: box-shadow 0.3s ease;
+}
+.md h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+.md blockquote {
+    padding: 0 15px;
+    color: #777;
+    border-left: 4px solid #ddd;
+}
+.md a {
+    color: #00A8A8;
+    transition: color 0.2s;
+}
+.md a:hover {
+    color: #FF9100;
+    transition: color 0.2s;
+}
+.md pre {
+    background: #FAFAFA;
+    padding: 10px;
+}
+
+.md pre code {
+    padding: 0px;
+}
+.md code {
+    background: #FAFAFA;
+    padding: 8px;
 }
 
 /** Layout Elements **/
@@ -11,16 +71,8 @@ section.section {
     background: url('/img/hero-2.jpg') center center no-repeat;
     background-size: cover;
 }
-@media screen and (min-width: 48em) {
-    .hero {
-        margin-top: 68px;
-    }
-}
-@media screen and (max-width: 48em) {
-    .hero {
-        margin-top: 122px;
-    }
-}
+
+/** Blog **/
 
 /** Colors **/
 .k-orange {

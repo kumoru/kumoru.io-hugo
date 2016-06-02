@@ -1,5 +1,7 @@
 baseurl = "http://kumoru.io"
 languageCode = "en-us"
 title = "Kumoru"
+author = "Kumoru Team"
 canonifyurls = true
 googleAnalytics = "UA-64260060-1"
+disqusShortname = "kumoru"
