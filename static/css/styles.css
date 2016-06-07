@@ -14,12 +14,12 @@ body {
 
 @media screen and (min-width: 48em) {
     .site-container {
-        margin-top: 68px;
+        margin-top: 67px;
     }
 }
 @media screen and (max-width: 48em) {
     .site-container {
-        margin-top: 100px;
+        margin-top: 67px;
     }
 }
 

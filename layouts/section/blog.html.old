@@ -2,7 +2,7 @@
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 
-<section class="site-container center w-75 pv4 tc">
+<section class="site-container center w-60-l mw-60-l w-80 mw-80 pv4 tc">
   {{ range .Paginator.Pages }}
     {{ .Render "li" }}
   {{ end }}
