@@ -1,36 +1,33 @@
 +++
-date = "2016-06-06T12:01:18-07:00"
+date = "2016-06-07T12:01:18-07:00"
 title = "Welcome to Kumoru"
+author = "Patrick Deuley"
 +++
-
-# Welcome to Kumoru
 
 Hey, thanks for checking us out. We've worked really hard on this, and we're thrilled to finally be sharing it with the world at large.
 
-When we started this project, we envisioned a world where it was easier for developers to get their applications up and running without having to mess around with infrastructure. We had big ideas about what that could mean, and we weren't sure where it would lead, but to this day, our end-goal hasn't changed: create a platform that enables the infrastructure-less future.
+Kumoru.io was born from two major frustrations:
+
+* First, it should be easier for developers to get their application deployed without having to mess around with infrastructure.
+* Second, existing solutions have some glaring issues: restricted languages/libraries, not allowing for capacity efficiencies and locking you into a single provider.
+
+We have big ideas on how to solve these issues, and our end goal is to create a platform that enables a future without infrastructure.
 
 ## What is Kumoru?
 
-Kumoru is an application management platform. It takes applications you write and gets them up on the Internet with no input required from you once it's been set up. After your application is in our system, we monitor its performance for you (based on metrics you tell us to watch), and scale it to meet the demands of its load. We'll scale up when you get a traffic spike, and then scale it back down when it dies back down. This keeps your costs low, and mental overhead at zero.
+Kumoru is an application management platform. It takes applications you write and gets them up on the Internet with no input required from you once it's up. After your application is in our system, we monitor its performance for you (based on metrics you define), and scale it to meet the demands of its load. We'll scale your application up when traffic spikes and then scale back down when traffic slows. This keeps your costs low, and mental overhead at zero.
 
 Our hope is that at the end of the day, you can stop thinking about your applications the moment you deploy them. Focus on fixing bugs, adding features, and generally making things more awesome. Stop worrying about the performance of your infrastructure or if it will scale properly in the future. Let us take care of that for you.
 
 ## Let's get started:
 
-Kumoru requires a very basic understanding of docker. All you need to know is how to take your application and create a docker artifact. If you're new to Docker, we highly recommend the “Demystifying Docker” series, which covers artifact creation here:
+Kumoru requires a very basic understanding of Docker. All you need to know is how to take your application and create a Docker artifact. If you're new to Docker, we highly recommend the <a class="k-blue link" href="https://www.youtube.com/embed/pGYAg7TMmp0"> Demystifying Docker series</a>, which covers artifact creation.
 
-<br />
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pGYAg7TMmp0" frameborder="0" allowfullscreen></iframe>
-<br />
-<br />
+Once you have a Docker artifact, you can drop it in to Kumoru and get your application up on the web. To learn how, watch this:
+{{< youtube s3Io7-Y5wvA >}}
 
-Once you have a docker artifact, you can drop it in to Kumoru and get your application up on the web. To learn how, watch this:
-<video controls="controls" height="480" width="640">
-    <source src="https://www.dropbox.com/s/8samffoqrc26nr1/demo.mp4?dl=1" type="video/mp4"></source>
-</video>
+To learn more, check out our docs <a class="k-blue link" href="http://docs.kumoru.io">here.</a>
 
-To learn more, check out our docs <a href="http://docs.kumoru.io">here.</a>
-
-Or if you have any questions, feel free to reach out in the comments below, on Twitter <a href="https://twitter.com/kumoru_io">@kumoru_io</a> or via email at <a href="mailto:support@kumoru.io">support@kumoru.io</a>
+We are currently seeking users for a closed beta. If you're interested in working with us on improving the service, or you just have some questions, feel free to reach out in the comments below, on Twitter <a class="k-blue link" href="https://twitter.com/kumoru_io">@kumoru_io</a> or via email at <a class="k-blue link" href="mailto:support@kumoru.io">support@kumoru.io</a>
 
 Thanks for reading!
